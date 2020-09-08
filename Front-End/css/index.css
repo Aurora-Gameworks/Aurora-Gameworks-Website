@@ -1,8 +1,9 @@
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 header {
-  height: 30px;
-  color: grey;
+    height: 30px;
+    background-color: grey;
 }
