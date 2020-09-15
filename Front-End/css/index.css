@@ -1,9 +1,59 @@
+@font-face {
+    font-family: "Conthrax";
+    src: url("/Assets/conthrax-sb.ttf");
+}
+
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
-    height: 30px;
-    background-color: grey;
+    top: 0;
+    position: sticky;
+    height: 10.80vh;
+    background-image: linear-gradient(#232323, #000000);
+    z-index: 1;
+}
+
+#HeaderLogo {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+#WelcomeLogo {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#GamesSection {
+    margin-top: 89.2vh;
+    width: 100vw;
+    height: 1119px;
+    background-image: linear-gradient(#000000, #232323);
+}
+
+h1 {
+    color: white;
+    font-family: "Conthrax";
+    font-size: 80pt;
+}
+
+#GamesHeader {
+    margin-left: 20px;
+    padding-top: 50px;
 }
