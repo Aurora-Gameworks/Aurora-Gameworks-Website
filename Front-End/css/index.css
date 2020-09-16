@@ -1,125 +1,134 @@
 @font-face {
-  font-family: "Conthrax";
-  src: url("../Assets/conthrax-sb.ttf");
+    font-family: "Conthrax";
+    src: url("../Assets/conthrax-sb.ttf");
 }
 
 html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-}
-body {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: overlay;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
-  background: black;
-}
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  width: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(black, white, black);
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: overlay;
 }
+
 header {
-  top: 0;
-  position: sticky;
-  height: 10.8vh;
-  background-image: linear-gradient(#232323, #000000);
-  z-index: 1;
+    top: 0;
+    position: sticky;
+    height: 95px;
+    background-image: linear-gradient(#151626, #0E0F1A);
+    z-index: 1;
 }
 
 nav {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  margin-bottom: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 12px;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 30px;
+    display: inline-block;
+    margin-left: 82px;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
-  font-family: "Conthrax";
-  font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 22px;
 }
 
 p {
-  color: white;
-  font-size: 20pt;
-  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: white;
-  font-family: "Conthrax";
-  font-size: 80pt;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 80pt;
 }
 
 h2 {
-  color: white;
-  font-family: "Conthrax";
-  font-size: 40pt;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 40pt;
 }
 
 #HeaderLogo {
-  margin-left: 15%;
-  margin-top: 1.1%;
-  margin-right: 7.5%;
-  height: 55%;
-  display: inline-block;
+    margin-left: 14%;
+    margin-top: 1.1%;
+    margin-right: 7.5%;
+    height: 53px;
 }
 
 #WelcomeLogo {
-  width: 57.5%;
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
+    width: 890px;
+    position: absolute;
+    left: 50%;
+    top: 27.5%;
+    transform: translate(-50%, -50%);
+}
+
+#socialIconsBar {
+    height: 71px;
+    background-color: #0e0f1a2c;
+    margin-top: 17.5%;
+}
+
+#FollowUsText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size: 25pt;
+    height: 100%;
+    margin: 0;
+    margin-left: 27%;
+    padding-top: 0.9%;
+    display: inline-block;
 }
 
 .WelcomeSocialIcons {
-  position: absolute;
-  height: 7.5%;
-  top: 65%;
-  transform: translate(-50%, -50%);
+    opacity: 100%;
+    height: 30px;
+    margin-left: 2.55vw;
+}
+
+#BlurbSection {
+    background-image: url("../Assets/Group 2.png");
+    height: 404px;
+    background-size: cover;
 }
 
 #backgroundVideo {
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 #GamesSection {
-  margin-top: 55vh;
-  width: 100vw;
-  height: 1119px;
-  background-image: linear-gradient(#000000, #232323);
+    margin-top: 55vh;
+    width: 100vw;
+    height: 1119px;
+    background-image: linear-gradient(#000000, #232323);
 }
 
 #GamesHeader {
-  margin-left: 30px;
-  padding-top: 50px;
-  margin-bottom: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
 }
