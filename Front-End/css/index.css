@@ -1,149 +1,185 @@
 @font-face {
-  font-family: "Conthrax";
-  src: url("../Assets/conthrax-sb.ttf");
+    font-family: "Conthrax";
+    src: url("../Assets/conthrax-sb.ttf");
 }
 
 html {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  overflow-y: overlay;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: overlay;
 }
 
 header {
-  top: 0;
-  position: sticky;
-  height: 9.7vh;
-  background-image: linear-gradient(#151626, #0e0f1a);
-  z-index: 1;
+    top: 0;
+    position: sticky;
+    height: 9.7vh;
+    background-image: linear-gradient(#151626, #0e0f1a);
+    z-index: 1;
 }
 
 nav {
-  display: inline-block;
+    display: inline-block;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  margin-bottom: 1.2vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 1.2vh;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 4.2vw;
+    display: inline-block;
+    margin-left: 4.2vw;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
-  font-family: "Conthrax";
-  font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 1vw;
 }
 
 p {
-  color: white;
-  font-size: 20pt;
-  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: white;
-  font-family: "Conthrax";
-  font-size: 80pt;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 75pt;
 }
 
 h2 {
-  color: white;
-  font-family: "Conthrax";
-  font-size: 6vh;
+    color: white;
+    font-family: "Conthrax";
+    font-size: 6vh;
 }
 
 #HeaderLogo {
-  margin-left: 14%;
-  margin-top: 1.1%;
-  margin-right: 7.5%;
-  height: 5.4vh;
+    margin-left: 14%;
+    margin-top: 1.1%;
+    margin-right: 7.5%;
+    height: 2.75vw;
 }
 
 #WelcomeLogo {
-  width: 46vw;
-  position: absolute;
-  left: 50%;
-  top: 27.5%;
-  transform: translate(-50%, -50%);
+    width: 46vw;
+    position: absolute;
+    left: 50%;
+    top: 27.5%;
+    transform: translate(-50%, -50%);
 }
 
 #socialIconsBar {
-  background-color: #0e0f1a2c;
-  margin-top: 34vh;
-  height: 7.2vh;
+    background-color: #0e0f1a2c;
+    margin-top: 34vh;
+    height: 7.2vh;
 }
 
 #FollowUsText {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-variant: small-caps;
-  font-size: 2vw;
-  margin: 0;
-  margin-left: 27%;
-  display: inline-block;
-  margin-top: 0.75%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size: 2vw;
+    margin: 0;
+    margin-left: 27%;
+    display: inline-block;
+    margin-top: 0.75%;
 }
 
 .WelcomeSocialIcons {
-  opacity: 100%;
-  margin-left: 2.5vw;
-  display: inline-block;
+    opacity: 100%;
+    margin-left: 2.5vw;
+    display: inline-block;
 }
 
 #BlurbSection {
-  height: 41vh;
-  margin-top: 8vh;
-  background-color: #151626;
-  background-image: url("../Assets/PLaceholder\ Image.png");
-  background-size: cover;
+    height: 41vh;
+    margin-top: 8vh;
+    background-color: #151626;
+    background-image: url("../Assets/PLaceholder\ Image.png");
+    background-size: cover;
 }
 
 #BlurbTitle {
-  padding-top: 2vh;
-  padding-left: 20%;
-  margin-bottom: 0;
+    padding-top: 2vh;
+    padding-left: 20%;
+    margin-bottom: 0;
 }
 
 #BlurbParagraph {
-  padding-left: 20%;
-  width: 32%;
-  font-size: 2vh;
-  margin-top: 5px;
-  color: #cccccc;
+    padding-left: 20%;
+    width: 32%;
+    font-size: 1.1vw;
+    margin-top: 5px;
+    color: #cccccc;
 }
 
 #backgroundVideo {
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 #GamesSection {
-  width: 100vw;
-  height: 1119px;
-  background-image: linear-gradient(#000000, #232323);
+    width: 100vw;
+    background-image: linear-gradient(#151626, #0E0F1A);
 }
 
 #GamesHeader {
-  margin-left: 30px;
-  padding-top: 10px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-size: 6.5vw;
+    text-align: center;
+}
+
+#GamesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.GameDivider {
+    /*height: 503px;*/
+}
+
+.GameBox {
+    width: 30vw;
+    height: 68vh;
+}
+
+.GameTitle {
+    font-size: 2vw;
+    margin-top: 0;
+}
+
+.GameImg {
+    height: 17.6vh;
+}
+
+.GameParagraph {
+    font-size: 1.05vw;
+    padding-right: 10%;
+    color: #CCCCCC;
+    margin-bottom: 10vh;
+}
+
+.GameReadMoreLink {
+    color: #CCCCCC;
+    font-family: "Conthrax";
 }
