@@ -51,7 +51,7 @@ header a {
 }
 
 p {
-    color: white;
+    color: #CCCCCC;
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -188,8 +188,10 @@ h2 {
 #NewsSection {
     display: grid;
     grid-template-columns: 10vw auto 27vw 10vw;
-    grid-template-rows: 13.43vh 66.2vh auto;
-    height: 92vh;
+    /* grid-template-rows: 13.43vh 66.2vh auto; */
+    grid-auto-rows: max-content;
+    /* height: 92vh; */
+    padding-bottom: 2vh;
 }
 
 #NewsBox {
@@ -203,7 +205,7 @@ h2 {
     margin-bottom: 30px;
     height: 20%;
     font-size: 3vw;
-    grid-column: 1 / 2;
+    grid-column: 1 / 1;
 }
 
 #NewsBar {
@@ -215,6 +217,7 @@ h2 {
 #NewsParagraph {
     width: 50vw;
     font-size: 2vw;
+    color: #CCCCCC;
 }
 
 .NewsImages {
@@ -223,4 +226,49 @@ h2 {
     grid-row: 2/2;
     align-self: center;
     width: 23.6vw;
+}
+
+#ReadMoreText {
+    color: white;
+    font-family: "Conthrax";
+    text-decoration: underline white;
+    font-size: 2vw;
+}
+
+#ViewAllNewsText {
+    color: white;
+    font-family: "Conthrax";
+    font-size: 1.9vw;
+    text-decoration: none;
+    grid-column: 2/2;
+}
+
+#AboutSection {
+    height: 188.9vh;
+    background-image: linear-gradient(#0E0F1A, #151626);
+    display: grid;
+    grid-template-columns: 10vw 37.5vw 10vw 37.5vw 5vw;
+    /* grid-template-rows: 15vh 45vh 45vh 10vh; */
+    /* grid-template-rows: repeat( auto-fill, minmax(0, 45vh)); */
+    grid-auto-rows: max-content;
+}
+
+.AboutParagraph {
+    font-size: 2vw;
+    margin: 0;
+}
+
+.AboutImages {
+    width: 35vw;
+    margin-bottom: 5vh;
+}
+
+#OurTeamText {
+    font-family: "Conthrax";
+    color: white;
+    grid-row: 4/4;
+    grid-column: 2/2;
+    font-size: 3vw;
+    margin: 0;
+    margin-top: 2vh;
 }
