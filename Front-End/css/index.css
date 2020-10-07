@@ -19,7 +19,7 @@ body {
 header {
     top: 0;
     position: sticky;
-    height: 9.7vh;
+    height: 8vh;
     background-image: linear-gradient(#151626, #0e0f1a);
     z-index: 1;
     display: flex;
@@ -84,7 +84,7 @@ h2 {
 
 #socialIconsBar {
     background-color: #0e0f1a2c;
-    margin-top: 34vh;
+    margin-top: 35.7vh;
     height: 7.2vh;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ h2 {
     font-size: 20vw;
     margin-top: 8vh;
     background-color: #151626;
-    background-image: url("../Assets/PLaceholder\ Image.png");
+    background-image: url("../Assets/HomePage/PLaceholder\ Image.png");
     background-size: cover;
 }
 
@@ -138,7 +138,7 @@ h2 {
 
 #GamesSection {
     background-image: linear-gradient(#151626, #0E0F1A);
-    height: 90.2vh;
+    height: 92vh;
 }
 
 .SectionHeader {
@@ -187,15 +187,41 @@ h2 {
 
 #NewsSection {
     display: grid;
-    grid-template-columns: 10vw auto 20vw 10vw;
-    grid-template-rows: 15vh 60vh 10vh;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 13.43vh 66.2vh auto;
+    height: 92vh;
 }
 
 #NewsBox {
-    background-color: #151626;
-    opacity: 75%;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    background-color: rgba(21, 22, 38, 0.75);
+    grid-column: 2 / 2;
+    padding-left: 2.5vw;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 66.2vh;
 }
 
-#NewsTitle {}
+#NewsTitle {
+    margin-bottom: 30px;
+    height: 20%;
+    font-size: 3vw;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+#NewsBar {
+    height: 3px;
+    width: 46vw;
+    background-color: white;
+}
+
+#NewsParagraph {
+    width: 50vw;
+    font-size: 2vw;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+}
+
+.NewsImages {
+    grid-column: 3 / 4;
+}
