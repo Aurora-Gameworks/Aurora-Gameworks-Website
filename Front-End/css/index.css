@@ -106,6 +106,7 @@ h2 {
 
 #BlurbSection {
     height: 41vh;
+    font-size: 20vw;
     margin-top: 8vh;
     background-color: #151626;
     background-image: url("../Assets/PLaceholder\ Image.png");
@@ -136,14 +137,14 @@ h2 {
 }
 
 #GamesSection {
-    width: 100vw;
     background-image: linear-gradient(#151626, #0E0F1A);
+    height: 90.2vh;
 }
 
-#GamesHeader {
+.SectionHeader {
     margin-top: 0px;
     padding-top: 5px;
-    font-size: 6.5vw;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -155,7 +156,7 @@ h2 {
 }
 
 .GameDivider {
-    /*height: 503px;*/
+    height: 30+vw;
 }
 
 .GameBox {
@@ -169,7 +170,7 @@ h2 {
 }
 
 .GameImg {
-    height: 17.6vh;
+    width: 17.6vw;
 }
 
 .GameParagraph {
@@ -183,3 +184,18 @@ h2 {
     color: #CCCCCC;
     font-family: "Conthrax";
 }
+
+#NewsSection {
+    display: grid;
+    grid-template-columns: 10vw auto 20vw 10vw;
+    grid-template-rows: 15vh 60vh 10vh;
+}
+
+#NewsBox {
+    background-color: #151626;
+    opacity: 75%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#NewsTitle {}
