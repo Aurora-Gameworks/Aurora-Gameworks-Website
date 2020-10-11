@@ -3,77 +3,6 @@
     src: url("../Assets/conthrax-sb.ttf");
 }
 
-html {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: overlay;
-}
-
-header {
-    top: 0;
-    position: sticky;
-    height: 8vh;
-    background-image: linear-gradient(#151626, #0e0f1a);
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-header ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 20%;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header li {
-    margin-left: 4.2vw;
-    text-align: centre;
-}
-
-header a {
-    text-decoration: none;
-    color: white;
-    font-family: "Conthrax";
-    font-size: 1vw;
-}
-
-p {
-    color: #CCCCCC;
-    font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    color: white;
-    font-family: "Conthrax";
-    font-size: 75pt;
-}
-
-h2 {
-    color: white;
-    font-family: "Conthrax";
-    font-size: 6vh;
-}
-
-#HeaderLogo {
-    margin-left: 110%;
-    margin-right: 7.5%;
-    height: 2.75vw;
-}
-
 #WelcomeLogo {
     width: 46vw;
     position: absolute;
@@ -96,13 +25,17 @@ h2 {
     font-variant: small-caps;
     font-size: 2vw;
     margin: 0;
+    padding: 0;
     margin-left: 27%;
 }
 
 .WelcomeSocialIcons {
     opacity: 100%;
+    margin: auto;
     margin-left: 2.5vw;
 }
+
+#GamesScrollPos {}
 
 #BlurbSection {
     height: 41vh;
@@ -138,14 +71,15 @@ h2 {
 
 #GamesSection {
     background-image: linear-gradient(#151626, #0E0F1A);
-    height: 92vh;
+    height: 46.7vw;
 }
 
 .SectionHeader {
     margin-top: 0px;
     padding-top: 5px;
     font-size: 4vw;
-    text-align: center;
+    height: 6vw;
+    padding: auto;
 }
 
 #GamesContainer {
@@ -156,12 +90,11 @@ h2 {
 }
 
 .GameDivider {
-    height: 30+vw;
+    height: 25vw;
 }
 
 .GameBox {
     width: 30vw;
-    height: 68vh;
 }
 
 .GameTitle {
@@ -177,12 +110,14 @@ h2 {
     font-size: 1.05vw;
     padding-right: 10%;
     color: #CCCCCC;
-    margin-bottom: 10vh;
+    margin-bottom: 7vw;
+    height: 10vw;
 }
 
 .GameReadMoreLink {
     color: #CCCCCC;
     font-family: "Conthrax";
+    font-size: 2vw;
 }
 
 #NewsSection {
@@ -190,8 +125,9 @@ h2 {
     grid-template-columns: 10vw auto 27vw 10vw;
     /* grid-template-rows: 13.43vh 66.2vh auto; */
     grid-auto-rows: max-content;
+    grid-template-rows: 6vw auto auto;
     /* height: 92vh; */
-    padding-bottom: 2vh;
+    height: 46.7vw;
 }
 
 #NewsBox {
@@ -202,7 +138,7 @@ h2 {
 }
 
 #NewsTitle {
-    margin-bottom: 30px;
+    margin-bottom: 1.56vw;
     height: 20%;
     font-size: 3vw;
     grid-column: 1 / 1;
@@ -275,7 +211,7 @@ h2 {
     display: flex;
     align-items: center;
     grid-column: 2/5;
-    height: 20vh;
+    height: 10.1vw;
 }
 
 .BioImg {
@@ -301,4 +237,15 @@ h2 {
     grid-column: 2/5;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1));
     width: 75vw;
+}
+
+#ContactUsSection {
+    height: 92vh;
+    display: grid;
+    grid-template-rows: 12vh auto;
+}
+
+#ContactUsContainer {
+    background-color: #0B0C1499;
+    grid-row: 2/2;
 }
