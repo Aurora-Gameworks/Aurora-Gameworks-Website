@@ -1,251 +1,253 @@
 @font-face {
-    font-family: "Conthrax";
-    src: url("../Assets/conthrax-sb.ttf");
+  font-family: "Conthrax";
+  src: url("../Assets/conthrax-sb.ttf");
 }
 
 #WelcomeLogo {
-    width: 46vw;
-    position: absolute;
-    left: 50%;
-    top: 27.5%;
-    transform: translate(-50%, -50%);
+  width: 46vw;
+  position: absolute;
+  left: 50%;
+  top: 27.5%;
+  transform: translate(-50%, -50%);
 }
 
 #socialIconsBar {
-    background-color: #0e0f1a2c;
-    margin-top: 35.7vh;
-    height: 7.2vh;
-    display: flex;
-    align-items: center;
+  background-color: #0e0f1a2c;
+  margin-top: 35.7vh;
+  height: 7.2vh;
+  display: flex;
+  align-items: center;
 }
 
 #FollowUsText {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-variant: small-caps;
-    font-size: 2vw;
-    margin: 0;
-    padding: 0;
-    margin-left: 27%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-variant: small-caps;
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  margin-left: 27%;
 }
 
 .WelcomeSocialIcons {
-    opacity: 100%;
-    margin: auto;
-    margin-left: 2.5vw;
+  opacity: 100%;
+  margin: auto;
+  margin-left: 2.5vw;
 }
 
-#GamesScrollPos {}
-
 #BlurbSection {
-    height: 41vh;
-    font-size: 20vw;
-    margin-top: 8vh;
-    background-color: #151626;
-    background-image: url("../Assets/HomePage/PLaceholder\ Image.png");
-    background-size: cover;
+  height: 41vh;
+  font-size: 20vw;
+  margin-top: 8vh;
+  background-color: #151626;
+  background-image: url("../Assets/HomePage/PLaceholder\ Image.png");
+  background-size: cover;
 }
 
 #BlurbTitle {
-    padding-top: 2vh;
-    padding-left: 20%;
-    margin-bottom: 0;
+  padding-top: 2vh;
+  padding-left: 20%;
+  margin-bottom: 0;
 }
 
 #BlurbParagraph {
-    padding-left: 20%;
-    width: 32%;
-    font-size: 1.1vw;
-    margin-top: 5px;
-    color: #cccccc;
+  padding-left: 20%;
+  width: 32%;
+  font-size: 1.1vw;
+  margin-top: 5px;
+  color: #cccccc;
 }
 
 #backgroundVideo {
-    position: fixed;
-    right: 0;
-    bottom: -50px;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: -50px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 #GamesSection {
-    background-image: linear-gradient(#151626, #0E0F1A);
-    height: 46.7vw;
+  background-image: linear-gradient(#151626, #0e0f1a);
+  height: 46.7vw;
 }
 
 .SectionHeader {
-    margin-top: 0px;
-    padding-top: 5px;
-    font-size: 4vw;
-    height: 6vw;
-    padding: auto;
+  margin-top: 0px;
+  padding-top: 5px;
+  font-size: 4vw;
+  height: 6vw;
+  padding: auto;
 }
 
 #GamesContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .GameDivider {
-    height: 25vw;
+  height: 25vw;
 }
 
 .GameBox {
-    width: 30vw;
+  width: 30vw;
 }
 
 .GameTitle {
-    font-size: 2vw;
-    margin-top: 0;
+  font-size: 2vw;
+  margin-top: 0;
 }
 
 .GameImg {
-    width: 17.6vw;
+  width: 17.6vw;
 }
 
 .GameParagraph {
-    font-size: 1.05vw;
-    padding-right: 10%;
-    color: #CCCCCC;
-    margin-bottom: 7vw;
-    height: 10vw;
+  font-size: 1.05vw;
+  padding-right: 10%;
+  color: #cccccc;
+  margin-bottom: 7vw;
+  height: 10vw;
 }
 
 .GameReadMoreLink {
-    color: #CCCCCC;
-    font-family: "Conthrax";
-    font-size: 2vw;
+  color: #cccccc;
+  font-family: "Conthrax";
+  font-size: 2vw;
 }
 
 #NewsSection {
-    display: grid;
-    grid-template-columns: 10vw auto 27vw 10vw;
-    /* grid-template-rows: 13.43vh 66.2vh auto; */
-    grid-auto-rows: max-content;
-    grid-template-rows: 6vw auto auto;
-    /* height: 92vh; */
-    height: 46.7vw;
+  display: grid;
+  grid-template-columns: 10vw auto 27vw 10vw;
+  /* grid-template-rows: 13.43vh 66.2vh auto; */
+  grid-auto-rows: max-content;
+  grid-template-rows: 6vw auto auto;
+  /* height: 92vh; */
+  height: 46.7vw;
 }
 
 #NewsBox {
-    background-color: rgba(21, 22, 38, 0.75);
-    grid-column: 2 / 4;
-    grid-row: 2/2;
-    padding-left: 2.5vw;
+  background-color: rgba(21, 22, 38, 0.75);
+  grid-column: 2 / 4;
+  grid-row: 2/2;
+  padding-left: 2.5vw;
 }
 
 #NewsTitle {
-    margin-bottom: 1.56vw;
-    height: 20%;
-    font-size: 3vw;
-    grid-column: 1 / 1;
+  margin-bottom: 1.56vw;
+  height: 20%;
+  font-size: 3vw;
+  grid-column: 1 / 1;
 }
 
 #NewsBar {
-    height: 3px;
-    width: 46vw;
-    background-color: white;
+  height: 3px;
+  width: 46vw;
+  background-color: white;
 }
 
 #NewsParagraph {
-    width: 50vw;
-    font-size: 2vw;
-    color: #CCCCCC;
+  width: 50vw;
+  font-size: 2vw;
+  color: #cccccc;
 }
 
 .NewsImages {
-    margin-top: 22.5%;
-    grid-column: 3 / 3;
-    grid-row: 2/2;
-    align-self: center;
-    width: 23.6vw;
+  margin-top: 22.5%;
+  grid-column: 3 / 3;
+  grid-row: 2/2;
+  align-self: center;
+  width: 23.6vw;
 }
 
 #ReadMoreText {
-    color: white;
-    font-family: "Conthrax";
-    text-decoration: underline white;
-    font-size: 2vw;
+  color: white;
+  font-family: "Conthrax";
+  text-decoration: underline white;
+  font-size: 2vw;
 }
 
 #ViewAllNewsText {
-    color: white;
-    font-family: "Conthrax";
-    font-size: 1.9vw;
-    text-decoration: none;
-    grid-column: 2/2;
+  color: white;
+  font-family: "Conthrax";
+  font-size: 1.9vw;
+  text-decoration: none;
+  grid-column: 2/2;
 }
 
 #AboutSection {
-    background-image: linear-gradient(#0E0F1A, #151626);
-    display: grid;
-    grid-template-columns: 10vw 37.5vw 10vw 37.5vw 5vw;
-    /* grid-template-rows: 15vh 45vh 45vh 10vh; */
-    /* grid-template-rows: repeat( auto-fill, minmax(0, 45vh)); */
-    grid-auto-rows: max-content;
+  background-image: linear-gradient(#0e0f1a, #151626);
+  display: grid;
+  grid-template-columns: 10vw 37.5vw 10vw 37.5vw 5vw;
+  /* grid-template-rows: 15vh 45vh 45vh 10vh; */
+  /* grid-template-rows: repeat( auto-fill, minmax(0, 45vh)); */
+  grid-auto-rows: max-content;
 }
 
 .AboutParagraph {
-    font-size: 2vw;
-    margin: 0;
+  font-size: 2vw;
+  margin: 0;
 }
 
 .AboutImages {
-    width: 35vw;
-    margin-bottom: 5vh;
+  width: 35vw;
+  margin-bottom: 5vh;
 }
 
 #OurTeamText {
-    font-family: "Conthrax";
-    color: white;
-    grid-row: 4/4;
-    grid-column: 2/2;
-    font-size: 3vw;
-    margin-top: 2vh;
+  font-family: "Conthrax";
+  color: white;
+  grid-row: 4/4;
+  grid-column: 2/2;
+  font-size: 3vw;
+  margin-top: 2vh;
 }
 
 .BioContainer {
-    display: flex;
-    align-items: center;
-    grid-column: 2/5;
-    height: 10.1vw;
+  display: flex;
+  align-items: center;
+  grid-column: 2/5;
+  height: 10.1vw;
 }
 
 .BioImg {
-    width: 8vw;
-    height: 8vw;
+  width: 8vw;
+  height: 8vw;
 }
 
 .BioName {
-    color: #CCCCCC;
-    font-family: "Conthrax";
-    margin-left: 2vw;
-    font-size: 2vw;
-    width: 25vw;
+  color: #cccccc;
+  font-family: "Conthrax";
+  margin-left: 2vw;
+  font-size: 2vw;
+  width: 25vw;
 }
 
 .BioParagraph {
-    width: 40vw;
-    font-size: 1.5vw;
+  width: 40vw;
+  font-size: 1.5vw;
 }
 
 .BioDivider {
-    height: 3px;
-    grid-column: 2/5;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1));
-    width: 75vw;
+  height: 3px;
+  grid-column: 2/5;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 1)
+  );
+  width: 75vw;
 }
 
 #ContactUsSection {
-    height: 92vh;
-    display: grid;
-    grid-template-rows: 12vh auto;
+  height: 92vh;
+  display: grid;
+  grid-template-rows: 12vh auto;
 }
 
 #ContactUsContainer {
-    background-color: #0B0C1499;
-    grid-row: 2/2;
+  background-color: #0b0c1499;
+  grid-row: 2/2;
 }
