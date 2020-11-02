@@ -10,22 +10,29 @@
     <link rel="stylesheet" href="../css/header.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/scrollTo.js"></script>
+    <script src="../js/scrollspy.js"></script>
 </head>
 
 <body>
     <header>
         <a href="#"><img src="../Assets/Logos/WhiteAuroraTextLogo.png" alt="" id="HeaderLogo" /></a>
+         <img src="../Assets/ScrollHighlighter.png" alt="" class="HeaderHighlighter" style="left:40.1%; opacity:100%">
+        <img src="../Assets/ScrollHighlighter.png" alt="" class="HeaderHighlighter" style="left:48.4%">
+        <img src="../Assets/ScrollHighlighter.png" alt="" class="HeaderHighlighter" style="left:56.5%">
+        <img src="../Assets/ScrollHighlighter.png" alt="" class="HeaderHighlighter" style="left:64.6%">        
+        <img src="../Assets/ScrollHighlighter.png" alt="" class="HeaderHighlighter" style="left:75%">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a  href="#">Home</a></li>
             <li><a class="scroll" href="#GamesSection">Games</a></li>
             <li><a class="scroll" href="#NewsSection">News</a></li>
             <li><a class="scroll" href="#AboutSection">About</a></li>
             <li><a class="scroll" href="#ContactUsSection">Contact Us</a></li>
         </ul>
+       
+
     </header>
     <div id="main">
         <section>
-
             </video>
             <img src="../Assets/Logos/WhiteAuroraTextLogo.png" alt="" id="WelcomeLogo" />
             <div id="socialIconsBar">
@@ -49,13 +56,13 @@
                 </nav>
             </div>
         </section>
-        <section id="BlurbSection">
+        <div id="BlurbSection">
             <h2 id="BlurbTitle">Indie Games <br />Made by Gamers</h2>
             <p id="BlurbParagraph">
                 Aurora Gameworks is a New Zealand based, Indie game studio. Our goal is to deliver creative, optimised, and fair gaming experiences. The Aurora team is made up of passionate developers who all have backgrounds of growing up close to gaming. We are active
                 on YouTube, Facebook and Twitter, frequently posting updates on our projects. For those of you who are game developers, we also upload a range of tutorials on how to, to help you with your own game projects.
             </p>
-        </section>
+        </div>
         <div id="GamesScrollPos"></div>
         <section id="GamesSection">
             <h1 class="SectionHeader">Games</h1>
@@ -125,10 +132,14 @@
                 <p class="BioParagraph">Rodney Wessel is Lead Level designer and also does 3d modeling within Blender.</p>
             </div>
         </section>
-        <footer id="ContactUsSection">
+        <section id="ContactUsSection">
             <h1 class="SectionHeader">Contact Us</h1>
-            <div id="ContactUsContainer"></div>
-        </footer>
+            <div id="ContactUsContainer">
+                <h1 class="ContactInfoItem">Email: AuroraGameworks@Gmail.com</h1>
+                <h1 class="ContactInfoItem">Twitter: @AuroraGameworks</h1>
+
+            </div>
+        </section>
     </div>
 </body>
 <video autoplay muted loop id="backgroundVideo">

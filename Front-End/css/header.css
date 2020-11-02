@@ -1,78 +1,88 @@
 @font-face {
-    font-family: "Conthrax";
-    src: url("../Assets/conthrax-sb.ttf");
+  font-family: "Conthrax";
+  src: url("../Assets/conthrax-sb.ttf");
 }
 
 html {
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: overlay;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: overlay;
 }
 
 header {
-    top: 0;
-    position: sticky;
-    height: 8vh;
-    background-image: linear-gradient(#151626, #0e0f1a);
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  top: 0;
+  position: sticky;
+  height: 8vh;
+  background-image: linear-gradient(#151626, #0e0f1a);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 header ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 20%;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 20%;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header li {
-    margin-left: 4.2vw;
-    text-align: center;
+  margin-left: 4.2vw;
+  text-align: center;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
-    font-family: "Conthrax";
-    font-size: 1vw;
+  text-decoration: none;
+  color: white;
+  font-family: "Conthrax";
+  font-size: 1vw;
 }
-
+.HeaderHighlighter {
+  position: absolute;
+  top: 50%;
+  width: 4.1vw;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+}
 #HeaderLogo {
-    margin-left: 110%;
-    margin-right: 7.5%;
-    height: 2.75vw;
+  margin-left: 110%;
+  margin-right: 7.5%;
+  height: 2.75vw;
 }
 
 p {
-    color: #CCCCCC;
-    font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #cccccc;
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: white;
-    font-family: "Conthrax";
-    font-size: 75pt;
-    text-align: center;
-    align-self: center;
-    margin: 0;
+  color: white;
+  font-family: "Conthrax";
+  font-size: 75pt;
+  text-align: center;
+  align-self: center;
+  margin: 0;
 }
 
 h2 {
-    color: white;
-    font-family: "Conthrax";
-    font-size: 6vh;
+  color: white;
+  font-family: "Conthrax";
+  font-size: 6vh;
+}
+.scroll {
+  text-decoration: none;
 }
