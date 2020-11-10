@@ -56,6 +56,7 @@ header a {
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0;
+  transition: 0.2s;
 }
 #HeaderLogo {
   margin-left: 110%;
