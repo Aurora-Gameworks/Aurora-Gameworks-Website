@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
     {
       console.log(menu_links[link].parentElement.clientWidth);
       menu_highlighters[0].style.width = "" + menu_links[link].parentElement.clientWidth + "px";
-      menu_highlighters[0].style.height = "24.27px";
+      menu_highlighters[0].style.height = "1.68vw";
       menu_highlighters[0].style.left = link == 0 ? "40.1%" : menu_highlighters[link].style.left;
     });
 

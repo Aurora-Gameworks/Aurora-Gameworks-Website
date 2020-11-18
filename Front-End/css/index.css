@@ -2,7 +2,9 @@
   font-family: "Conthrax";
   src: url("../Assets/conthrax-sb.ttf");
 }
-
+a {
+  text-decoration: none;
+}
 #WelcomeLogo {
   width: 46vw;
   position: absolute;
