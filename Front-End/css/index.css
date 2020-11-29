@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Conthrax";
-  src: url("../Assets/conthrax-sb.ttf");
+  src: url("Assets/conthrax-sb.ttf");
 }
 a {
   text-decoration: none;
@@ -42,7 +42,7 @@ a {
   font-size: 20vw;
   margin-top: 8vh;
   background-color: #151626;
-  background-image: url("../Assets/HomePage/PLaceholder\ Image.png");
+  background-image: url("Assets/HomePage/PLaceholder\ Image.png");
   background-size: cover;
 }
 
